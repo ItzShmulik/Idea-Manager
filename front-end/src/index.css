@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html, body, #root{
+  margin: 0;
+  height: 100%;
+}
+
+body{
+  background-color: rgb(216, 194, 162);
+  background-image: radial-gradient(#b8a78d 2px, transparent 0);
+  background-size: 100px 100px;
+}
+
+.note-button-container{
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  height: fit-content;
+  gap: 50px;
+  padding: 10px;
+  left: 50%;
+  top: 80%;
+  transform: translateX(-50%);
+  
+}
+
+.note-button{
+  width: 70px;
+  height: 70px;
+  border: #adadad 2px solid;
+  border-radius: 30px;
+  background-color: transparent;
+}
+
+.note-button:hover{
+  border: white 2px solid;
+}
+
+.note-button img{
+    width: 80%;
+    height: 80%;
+}
